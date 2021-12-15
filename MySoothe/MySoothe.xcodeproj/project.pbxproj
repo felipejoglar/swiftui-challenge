@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8020276A13C8002EC660 /* MySootheApp.swift */; };
+		88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8024276A13CA002EC660 /* Assets.xcassets */; };
+		88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8027276A13CA002EC660 /* Preview Assets.xcassets */; };
+		88FA802F276A1516002EC660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA802E276A1516002EC660 /* ContentView.swift */; };
+		88FA8033276A1568002EC660 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8032276A1568002EC660 /* Colors.swift */; };
+		88FA8035276A157C002EC660 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8034276A157C002EC660 /* Theme.swift */; };
+		88FA8037276A15A1002EC660 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8036276A15A1002EC660 /* Fonts.swift */; };
+		88FA803E276A15FE002EC660 /* LatoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FA803A276A15FE002EC660 /* LatoBold.ttf */; };
+		88FA803F276A15FE002EC660 /* KulimParkRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FA803B276A15FE002EC660 /* KulimParkRegular.ttf */; };
+		88FA8040276A15FE002EC660 /* LatoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FA803C276A15FE002EC660 /* LatoRegular.ttf */; };
+		88FA8041276A15FE002EC660 /* KulimParkLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FA803D276A15FE002EC660 /* KulimParkLight.ttf */; };
+		88FA8047276A1711002EC660 /* MySootheContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8046276A1711002EC660 /* MySootheContainer.swift */; };
+		88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8048276A175F002EC660 /* FillMaxSize.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88FA801D276A13C8002EC660 /* My Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Soothe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FA8020276A13C8002EC660 /* MySootheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheApp.swift; sourceTree = "<group>"; };
+		88FA8024276A13CA002EC660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88FA8027276A13CA002EC660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88FA802E276A1516002EC660 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88FA8032276A1568002EC660 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		88FA8034276A157C002EC660 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		88FA8036276A15A1002EC660 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		88FA803A276A15FE002EC660 /* LatoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoBold.ttf; sourceTree = "<group>"; };
+		88FA803B276A15FE002EC660 /* KulimParkRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KulimParkRegular.ttf; sourceTree = "<group>"; };
+		88FA803C276A15FE002EC660 /* LatoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoRegular.ttf; sourceTree = "<group>"; };
+		88FA803D276A15FE002EC660 /* KulimParkLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KulimParkLight.ttf; sourceTree = "<group>"; };
+		88FA8042276A1657002EC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88FA8046276A1711002EC660 /* MySootheContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheContainer.swift; sourceTree = "<group>"; };
+		88FA8048276A175F002EC660 /* FillMaxSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillMaxSize.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88FA801A276A13C8002EC660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88FA8014276A13C8002EC660 = {
+			isa = PBXGroup;
+			children = (
+				88FA801F276A13C8002EC660 /* MySoothe */,
+				88FA801E276A13C8002EC660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88FA801E276A13C8002EC660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88FA801D276A13C8002EC660 /* My Soothe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88FA801F276A13C8002EC660 /* MySoothe */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8020276A13C8002EC660 /* MySootheApp.swift */,
+				88FA8030276A1529002EC660 /* UI */,
+				88FA8024276A13CA002EC660 /* Assets.xcassets */,
+				88FA8042276A1657002EC660 /* Info.plist */,
+				88FA8026276A13CA002EC660 /* Preview Content */,
+			);
+			path = MySoothe;
+			sourceTree = "<group>";
+		};
+		88FA8026276A13CA002EC660 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8027276A13CA002EC660 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88FA8030276A1529002EC660 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8038276A15C0002EC660 /* Resources */,
+				88FA8031276A1541002EC660 /* Theme */,
+				88FA8044276A16D7002EC660 /* Components */,
+				88FA8045276A16E4002EC660 /* Modifiers */,
+				88FA8043276A169A002EC660 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		88FA8031276A1541002EC660 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8034276A157C002EC660 /* Theme.swift */,
+				88FA8032276A1568002EC660 /* Colors.swift */,
+				88FA8036276A15A1002EC660 /* Fonts.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		88FA8038276A15C0002EC660 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8039276A15C8002EC660 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88FA8039276A15C8002EC660 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88FA803D276A15FE002EC660 /* KulimParkLight.ttf */,
+				88FA803B276A15FE002EC660 /* KulimParkRegular.ttf */,
+				88FA803A276A15FE002EC660 /* LatoBold.ttf */,
+				88FA803C276A15FE002EC660 /* LatoRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88FA8043276A169A002EC660 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				88FA802E276A1516002EC660 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		88FA8044276A16D7002EC660 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8046276A1711002EC660 /* MySootheContainer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		88FA8045276A16E4002EC660 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				88FA8048276A175F002EC660 /* FillMaxSize.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88FA801C276A13C8002EC660 /* MySoothe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FA802B276A13CA002EC660 /* Build configuration list for PBXNativeTarget "MySoothe" */;
+			buildPhases = (
+				88FA8019276A13C8002EC660 /* Sources */,
+				88FA801A276A13C8002EC660 /* Frameworks */,
+				88FA801B276A13C8002EC660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySoothe;
+			productName = MySoothe;
+			productReference = 88FA801D276A13C8002EC660 /* My Soothe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88FA8015276A13C8002EC660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					88FA801C276A13C8002EC660 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 88FA8018276A13C8002EC660 /* Build configuration list for PBXProject "MySoothe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88FA8014276A13C8002EC660;
+			productRefGroup = 88FA801E276A13C8002EC660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88FA801C276A13C8002EC660 /* MySoothe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88FA801B276A13C8002EC660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */,
+				88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */,
+				88FA8040276A15FE002EC660 /* LatoRegular.ttf in Resources */,
+				88FA803F276A15FE002EC660 /* KulimParkRegular.ttf in Resources */,
+				88FA8041276A15FE002EC660 /* KulimParkLight.ttf in Resources */,
+				88FA803E276A15FE002EC660 /* LatoBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88FA8019276A13C8002EC660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FA802F276A1516002EC660 /* ContentView.swift in Sources */,
+				88FA8037276A15A1002EC660 /* Fonts.swift in Sources */,
+				88FA8035276A157C002EC660 /* Theme.swift in Sources */,
+				88FA8047276A1711002EC660 /* MySootheContainer.swift in Sources */,
+				88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */,
+				88FA8033276A1568002EC660 /* Colors.swift in Sources */,
+				88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88FA8029276A13CA002EC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88FA802A276A13CA002EC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88FA802C276A13CA002EC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySoothe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySoothe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjoglar.swiftuichallenge.mysoothe;
+				PRODUCT_NAME = "My Soothe";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		88FA802D276A13CA002EC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySoothe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySoothe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjoglar.swiftuichallenge.mysoothe;
+				PRODUCT_NAME = "My Soothe";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88FA8018276A13C8002EC660 /* Build configuration list for PBXProject "MySoothe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FA8029276A13CA002EC660 /* Debug */,
+				88FA802A276A13CA002EC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FA802B276A13CA002EC660 /* Build configuration list for PBXNativeTarget "MySoothe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FA802C276A13CA002EC660 /* Debug */,
+				88FA802D276A13CA002EC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88FA8015276A13C8002EC660 /* Project object */;
+}
