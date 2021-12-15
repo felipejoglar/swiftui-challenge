@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  MySoothe
+
+  Created by Felipe Joglar on 12/15/21.
+  
+*/
+
+// English
+
+"log_in" = "Log in";
+"sign_up" = "Sign up";

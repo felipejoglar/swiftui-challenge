@@ -12,7 +12,7 @@ struct MySootheApp: App {
     
     var body: some Scene {
         WindowGroup {
-                ContentView()
+                WelcomeScreen()
         }
     }
 }

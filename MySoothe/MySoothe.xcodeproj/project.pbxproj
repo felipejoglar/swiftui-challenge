@@ -10,7 +10,6 @@
 		88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8020276A13C8002EC660 /* MySootheApp.swift */; };
 		88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8024276A13CA002EC660 /* Assets.xcassets */; };
 		88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8027276A13CA002EC660 /* Preview Assets.xcassets */; };
-		88FA802F276A1516002EC660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA802E276A1516002EC660 /* ContentView.swift */; };
 		88FA8033276A1568002EC660 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8032276A1568002EC660 /* Colors.swift */; };
 		88FA8035276A157C002EC660 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8034276A157C002EC660 /* Theme.swift */; };
 		88FA8037276A15A1002EC660 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8036276A15A1002EC660 /* Fonts.swift */; };
@@ -20,6 +19,13 @@
 		88FA8041276A15FE002EC660 /* KulimParkLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FA803D276A15FE002EC660 /* KulimParkLight.ttf */; };
 		88FA8047276A1711002EC660 /* MySootheContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8046276A1711002EC660 /* MySootheContainer.swift */; };
 		88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8048276A175F002EC660 /* FillMaxSize.swift */; };
+		88FA804B276A989E002EC660 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA804A276A989E002EC660 /* WelcomeScreen.swift */; };
+		88FA804D276A991F002EC660 /* MySootheButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA804C276A991F002EC660 /* MySootheButton.swift */; };
+		88FA804F276A99A1002EC660 /* FillMaxWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA804E276A99A1002EC660 /* FillMaxWidth.swift */; };
+		88FA8051276A99D6002EC660 /* Res.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8050276A99D6002EC660 /* Res.swift */; };
+		88FA8053276A99F4002EC660 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8052276A99F4002EC660 /* Images.swift */; };
+		88FA8056276A9A31002EC660 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8055276A9A31002EC660 /* Strings.swift */; };
+		88FA8059276A9A92002EC660 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88FA805B276A9A92002EC660 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +33,6 @@
 		88FA8020276A13C8002EC660 /* MySootheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheApp.swift; sourceTree = "<group>"; };
 		88FA8024276A13CA002EC660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FA8027276A13CA002EC660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		88FA802E276A1516002EC660 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88FA8032276A1568002EC660 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		88FA8034276A157C002EC660 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		88FA8036276A15A1002EC660 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -38,6 +43,13 @@
 		88FA8042276A1657002EC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		88FA8046276A1711002EC660 /* MySootheContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheContainer.swift; sourceTree = "<group>"; };
 		88FA8048276A175F002EC660 /* FillMaxSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillMaxSize.swift; sourceTree = "<group>"; };
+		88FA804A276A989E002EC660 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		88FA804C276A991F002EC660 /* MySootheButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheButton.swift; sourceTree = "<group>"; };
+		88FA804E276A99A1002EC660 /* FillMaxWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillMaxWidth.swift; sourceTree = "<group>"; };
+		88FA8050276A99D6002EC660 /* Res.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res.swift; sourceTree = "<group>"; };
+		88FA8052276A99F4002EC660 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		88FA8055276A9A31002EC660 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		88FA805A276A9A92002EC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +124,10 @@
 		88FA8038276A15C0002EC660 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				88FA8054276A9A11002EC660 /* Strings */,
 				88FA8039276A15C8002EC660 /* Fonts */,
+				88FA8050276A99D6002EC660 /* Res.swift */,
+				88FA8052276A99F4002EC660 /* Images.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,7 +146,7 @@
 		88FA8043276A169A002EC660 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				88FA802E276A1516002EC660 /* ContentView.swift */,
+				88FA804A276A989E002EC660 /* WelcomeScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -140,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				88FA8046276A1711002EC660 /* MySootheContainer.swift */,
+				88FA804C276A991F002EC660 /* MySootheButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -148,8 +164,18 @@
 			isa = PBXGroup;
 			children = (
 				88FA8048276A175F002EC660 /* FillMaxSize.swift */,
+				88FA804E276A99A1002EC660 /* FillMaxWidth.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		88FA8054276A9A11002EC660 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				88FA805B276A9A92002EC660 /* Localizable.strings */,
+				88FA8055276A9A31002EC660 /* Strings.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +239,7 @@
 				88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */,
 				88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */,
 				88FA8040276A15FE002EC660 /* LatoRegular.ttf in Resources */,
+				88FA8059276A9A92002EC660 /* Localizable.strings in Resources */,
 				88FA803F276A15FE002EC660 /* KulimParkRegular.ttf in Resources */,
 				88FA8041276A15FE002EC660 /* KulimParkLight.ttf in Resources */,
 				88FA803E276A15FE002EC660 /* LatoBold.ttf in Resources */,
@@ -226,17 +253,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88FA802F276A1516002EC660 /* ContentView.swift in Sources */,
 				88FA8037276A15A1002EC660 /* Fonts.swift in Sources */,
 				88FA8035276A157C002EC660 /* Theme.swift in Sources */,
 				88FA8047276A1711002EC660 /* MySootheContainer.swift in Sources */,
+				88FA8053276A99F4002EC660 /* Images.swift in Sources */,
+				88FA804D276A991F002EC660 /* MySootheButton.swift in Sources */,
+				88FA8051276A99D6002EC660 /* Res.swift in Sources */,
+				88FA804F276A99A1002EC660 /* FillMaxWidth.swift in Sources */,
 				88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */,
+				88FA804B276A989E002EC660 /* WelcomeScreen.swift in Sources */,
 				88FA8033276A1568002EC660 /* Colors.swift in Sources */,
+				88FA8056276A9A31002EC660 /* Strings.swift in Sources */,
 				88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88FA805B276A9A92002EC660 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88FA805A276A9A92002EC660 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		88FA8029276A13CA002EC660 /* Debug */ = {
