@@ -1,4 +1,4 @@
-# SwiftUI Challenge
+# <img src="https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/swiftui-logo.png" width="40" height="40"> SwiftUI Challenge
 
 This is a SwiftUI version of Android's Jetpack Compose Challenge [repository](https://github.com/fjoglar/jetpack-compose-challenge).
 
@@ -22,6 +22,7 @@ The resources & design mocks:
 
 This project will contain three application modules:
 
+1. [MySoothe](https://github.com/fjoglar/swiftui-challenge/tree/main/MySoothe)
 
 # License
 ```
