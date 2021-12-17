@@ -12,7 +12,7 @@ struct WelcomeScreen: View {
     var body: some View {
         MySootheContainer {
             Image(Res.images.welcomeBackground)
-                .resizable()
+                .centerCropped()
             
             VStack {
                 Image(Res.images.logo)
