@@ -16,3 +16,13 @@
 "log_in_email_label" = "Email address";
 "log_in_password_label" = "Password";
 "log_in_no_account_question" = "Don't have an account? ";
+
+// HOME - COLLECTIONS
+"home_collections_search_label" = "Search";
+"home_collections_favorite_title" = "Favorite collections";
+"home_collections_align_body_title" = "Align your body";
+"home_collections_align_mind_title" = "Align your mind";
+
+// HOME - CONTAINER
+"home_container_home_tab_title" = "Home";
+"home_container_profile_tab_title" = "Profile";

@@ -9,5 +9,6 @@ import Foundation
 
 struct Res {
     static let images = Images()
+    static let icons = Icons()
     static let strings = Strings()
 }

@@ -27,8 +27,10 @@ struct LoginScreen: View {
                 
                 MySootheTextField(Res.strings.logInEmailLabel, text: $email)
                     .keyboardType(.emailAddress)
+                    .padding(.horizontal, 16)
                 
                 MySootheTextField(Res.strings.logInPasswordLabel, text: $password, type: .password)
+                    .padding(.horizontal, 16)
                 
                 MySootheButton(text: Res.strings.logIn)
                     .padding(.horizontal, 16)

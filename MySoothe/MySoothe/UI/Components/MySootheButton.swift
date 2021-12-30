@@ -48,6 +48,8 @@ struct MySootheButton_Previews: PreviewProvider {
                 .preferredColorScheme(.dark)
         }
         .padding()
+        .previewLayout(.sizeThatFits)
+        .background(Theme.colors.background)
     }
 }
 
