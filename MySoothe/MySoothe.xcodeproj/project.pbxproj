@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88271DB9277BBA2D00B8D47E /* CollectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DB8277BBA2D00B8D47E /* CollectionTitle.swift */; };
+		88271DBB277BBC0C00B8D47E /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DBA277BBC0B00B8D47E /* Collections.swift */; };
+		88271DBD277C4EFD00B8D47E /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DBC277C4EFC00B8D47E /* HomeContainer.swift */; };
+		88271DBF277C5CC000B8D47E /* TabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DBE277C5CBF00B8D47E /* TabContent.swift */; };
+		88271DC1277C649100B8D47E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DC0277C649100B8D47E /* Icons.swift */; };
+		88271DC3277D147B00B8D47E /* HomeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88271DC2277D147B00B8D47E /* HomeActionButton.swift */; };
 		888FA6B7276BF4C7003CCABF /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FA6B6276BF4C7003CCABF /* LoginScreen.swift */; };
 		888FA6B9276BF5DE003CCABF /* FillMaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FA6B8276BF5DE003CCABF /* FillMaxHeight.swift */; };
 		88A2965B276D374300343731 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2965A276D374100343731 /* CornerRadius.swift */; };
 		88A2965D276D41B600343731 /* MySootheTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2965C276D41B600343731 /* MySootheTextField.swift */; };
 		88A2965F276D4AE100343731 /* CenterCropped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2965E276D4AE100343731 /* CenterCropped.swift */; };
+		88A29661276E8FEA00343731 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A29660276E8FEA00343731 /* HomeScreen.swift */; };
+		88DA073927748D50002204C6 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA073827748D50002204C6 /* Collection.swift */; };
+		88DA073B27748D91002204C6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA073A27748D91002204C6 /* Repository.swift */; };
+		88E311B52779DB550037A96C /* FavoriteCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311B42779DB540037A96C /* FavoriteCollectionItem.swift */; };
+		88E311B72779E3560037A96C /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311B62779E3560037A96C /* CollectionItem.swift */; };
+		88E311BB277B42600037A96C /* FavoriteCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311BA277B42600037A96C /* FavoriteCollections.swift */; };
+		88F01BB12774A148007F47EB /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F01BB02774A148007F47EB /* URLImage.swift */; };
 		88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8020276A13C8002EC660 /* MySootheApp.swift */; };
 		88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8024276A13CA002EC660 /* Assets.xcassets */; };
 		88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8027276A13CA002EC660 /* Preview Assets.xcassets */; };
@@ -34,11 +47,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88271DB8277BBA2D00B8D47E /* CollectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTitle.swift; sourceTree = "<group>"; };
+		88271DBA277BBC0B00B8D47E /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		88271DBC277C4EFC00B8D47E /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
+		88271DBE277C5CBF00B8D47E /* TabContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContent.swift; sourceTree = "<group>"; };
+		88271DC0277C649100B8D47E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		88271DC2277D147B00B8D47E /* HomeActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionButton.swift; sourceTree = "<group>"; };
 		888FA6B6276BF4C7003CCABF /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		888FA6B8276BF5DE003CCABF /* FillMaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillMaxHeight.swift; sourceTree = "<group>"; };
 		88A2965A276D374100343731 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 		88A2965C276D41B600343731 /* MySootheTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheTextField.swift; sourceTree = "<group>"; };
 		88A2965E276D4AE100343731 /* CenterCropped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCropped.swift; sourceTree = "<group>"; };
+		88A29660276E8FEA00343731 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		88DA073827748D50002204C6 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		88DA073A27748D91002204C6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		88E311B42779DB540037A96C /* FavoriteCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionItem.swift; sourceTree = "<group>"; };
+		88E311B62779E3560037A96C /* CollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
+		88E311BA277B42600037A96C /* FavoriteCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollections.swift; sourceTree = "<group>"; };
+		88F01BB02774A148007F47EB /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		88FA801D276A13C8002EC660 /* My Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Soothe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FA8020276A13C8002EC660 /* MySootheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheApp.swift; sourceTree = "<group>"; };
 		88FA8024276A13CA002EC660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +99,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88271DC4277DAC1100B8D47E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88271DBE277C5CBF00B8D47E /* TabContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88DA073627748C9C002204C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				88DA073727748CA3002204C6 /* Model */,
+				88DA073A27748D91002204C6 /* Repository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		88DA073727748CA3002204C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88DA073827748D50002204C6 /* Collection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88E311B8277B413A0037A96C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88271DC4277DAC1100B8D47E /* Model */,
+				88E311B9277B41490037A96C /* Components */,
+				88A29660276E8FEA00343731 /* HomeScreen.swift */,
+				88271DBC277C4EFC00B8D47E /* HomeContainer.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88E311B9277B41490037A96C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88E311B42779DB540037A96C /* FavoriteCollectionItem.swift */,
+				88E311BA277B42600037A96C /* FavoriteCollections.swift */,
+				88E311B62779E3560037A96C /* CollectionItem.swift */,
+				88271DBA277BBC0B00B8D47E /* Collections.swift */,
+				88271DB8277BBA2D00B8D47E /* CollectionTitle.swift */,
+				88271DC2277D147B00B8D47E /* HomeActionButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		88FA8014276A13C8002EC660 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				88FA8020276A13C8002EC660 /* MySootheApp.swift */,
+				88DA073627748C9C002204C6 /* Data */,
 				88FA8030276A1529002EC660 /* UI */,
 				88FA8024276A13CA002EC660 /* Assets.xcassets */,
 				88FA8042276A1657002EC660 /* Info.plist */,
@@ -138,6 +214,7 @@
 				88FA8039276A15C8002EC660 /* Fonts */,
 				88FA8050276A99D6002EC660 /* Res.swift */,
 				88FA8052276A99F4002EC660 /* Images.swift */,
+				88271DC0277C649100B8D47E /* Icons.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,6 +233,7 @@
 		88FA8043276A169A002EC660 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				88E311B8277B413A0037A96C /* Home */,
 				88FA804A276A989E002EC660 /* WelcomeScreen.swift */,
 				888FA6B6276BF4C7003CCABF /* LoginScreen.swift */,
 			);
@@ -168,6 +246,7 @@
 				88FA8046276A1711002EC660 /* MySootheContainer.swift */,
 				88FA804C276A991F002EC660 /* MySootheButton.swift */,
 				88A2965C276D41B600343731 /* MySootheTextField.swift */,
+				88F01BB02774A148007F47EB /* URLImage.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -269,21 +348,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				888FA6B7276BF4C7003CCABF /* LoginScreen.swift in Sources */,
+				88271DBD277C4EFD00B8D47E /* HomeContainer.swift in Sources */,
 				88FA8037276A15A1002EC660 /* Fonts.swift in Sources */,
 				88A2965B276D374300343731 /* CornerRadius.swift in Sources */,
+				88E311BB277B42600037A96C /* FavoriteCollections.swift in Sources */,
 				88A2965D276D41B600343731 /* MySootheTextField.swift in Sources */,
 				88FA8035276A157C002EC660 /* Theme.swift in Sources */,
 				88FA8047276A1711002EC660 /* MySootheContainer.swift in Sources */,
 				888FA6B9276BF5DE003CCABF /* FillMaxHeight.swift in Sources */,
+				88F01BB12774A148007F47EB /* URLImage.swift in Sources */,
+				88271DC3277D147B00B8D47E /* HomeActionButton.swift in Sources */,
+				88DA073B27748D91002204C6 /* Repository.swift in Sources */,
+				88271DC1277C649100B8D47E /* Icons.swift in Sources */,
+				88DA073927748D50002204C6 /* Collection.swift in Sources */,
 				88FA8053276A99F4002EC660 /* Images.swift in Sources */,
 				88FA804D276A991F002EC660 /* MySootheButton.swift in Sources */,
 				88FA8051276A99D6002EC660 /* Res.swift in Sources */,
+				88E311B72779E3560037A96C /* CollectionItem.swift in Sources */,
 				88FA804F276A99A1002EC660 /* FillMaxWidth.swift in Sources */,
 				88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */,
+				88271DBB277BBC0C00B8D47E /* Collections.swift in Sources */,
 				88FA804B276A989E002EC660 /* WelcomeScreen.swift in Sources */,
+				88E311B52779DB550037A96C /* FavoriteCollectionItem.swift in Sources */,
 				88FA8033276A1568002EC660 /* Colors.swift in Sources */,
+				88271DBF277C5CC000B8D47E /* TabContent.swift in Sources */,
+				88A29661276E8FEA00343731 /* HomeScreen.swift in Sources */,
 				88FA8056276A9A31002EC660 /* Strings.swift in Sources */,
 				88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */,
+				88271DB9277BBA2D00B8D47E /* CollectionTitle.swift in Sources */,
 				88A2965F276D4AE100343731 /* CenterCropped.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +527,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +558,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
