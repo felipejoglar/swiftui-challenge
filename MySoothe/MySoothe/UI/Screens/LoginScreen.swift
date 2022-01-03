@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginScreen: View {
+    var onLoginClick: () -> Void
+    
     @State private var email: String = String()
     @State private var password: String = String()
     
@@ -32,7 +34,9 @@ struct LoginScreen: View {
                 MySootheTextField(Res.strings.logInPasswordLabel, text: $password, type: .password)
                     .padding(.horizontal, 16)
                 
-                MySootheButton(text: Res.strings.logIn)
+                MySootheButton(text: Res.strings.logIn) {
+                    onLoginClick()
+                }
                     .padding(.horizontal, 16)
                 
                 (Text(Res.strings.logInNoAccountQuestion) +
@@ -52,8 +56,8 @@ struct LoginScreen: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginScreen()
-        LoginScreen()
+        LoginScreen(onLoginClick: {})
+        LoginScreen(onLoginClick: {})
             .preferredColorScheme(.dark)
     }
 }

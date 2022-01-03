@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WelcomeScreen: View {
+    var onLoginClick: () -> Void
     
     var body: some View {
         MySootheContainer {
@@ -27,6 +28,7 @@ struct WelcomeScreen: View {
                     backgroundColor: Theme.colors.secondary,
                     onBackgroundColor: Theme.colors.onSecondary
                 ) {
+                    onLoginClick()
                 }
                 .fillMaxWidth()
             }
@@ -38,8 +40,8 @@ struct WelcomeScreen: View {
 
 struct WelcomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeScreen()
-        WelcomeScreen()
+        WelcomeScreen(onLoginClick: {})
+        WelcomeScreen(onLoginClick: {})
             .preferredColorScheme(.dark)
     }
 }   
