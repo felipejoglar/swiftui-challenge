@@ -24,6 +24,8 @@
 		88E311B52779DB550037A96C /* FavoriteCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311B42779DB540037A96C /* FavoriteCollectionItem.swift */; };
 		88E311B72779E3560037A96C /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311B62779E3560037A96C /* CollectionItem.swift */; };
 		88E311BB277B42600037A96C /* FavoriteCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E311BA277B42600037A96C /* FavoriteCollections.swift */; };
+		88EA643F2783ACB400DF1A4F /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA643E2783ACB300DF1A4F /* NavigationView.swift */; };
+		88EA64412783ACFC00DF1A4F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA64402783ACFC00DF1A4F /* Navigation.swift */; };
 		88F01BB12774A148007F47EB /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F01BB02774A148007F47EB /* URLImage.swift */; };
 		88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8020276A13C8002EC660 /* MySootheApp.swift */; };
 		88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8024276A13CA002EC660 /* Assets.xcassets */; };
@@ -64,6 +66,8 @@
 		88E311B42779DB540037A96C /* FavoriteCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionItem.swift; sourceTree = "<group>"; };
 		88E311B62779E3560037A96C /* CollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
 		88E311BA277B42600037A96C /* FavoriteCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollections.swift; sourceTree = "<group>"; };
+		88EA643E2783ACB300DF1A4F /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		88EA64402783ACFC00DF1A4F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		88F01BB02774A148007F47EB /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		88FA801D276A13C8002EC660 /* My Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Soothe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FA8020276A13C8002EC660 /* MySootheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheApp.swift; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 				88271DBE277C5CBF00B8D47E /* TabContent.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		889759C3277DB5A0003587B2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				88EA643E2783ACB300DF1A4F /* NavigationView.swift */,
+				88EA64402783ACFC00DF1A4F /* Navigation.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		88DA073627748C9C002204C6 /* Data */ = {
@@ -169,6 +182,7 @@
 			children = (
 				88FA8020276A13C8002EC660 /* MySootheApp.swift */,
 				88DA073627748C9C002204C6 /* Data */,
+				889759C3277DB5A0003587B2 /* Navigation */,
 				88FA8030276A1529002EC660 /* UI */,
 				88FA8024276A13CA002EC660 /* Assets.xcassets */,
 				88FA8042276A1657002EC660 /* Info.plist */,
@@ -365,6 +379,7 @@
 				88FA804D276A991F002EC660 /* MySootheButton.swift in Sources */,
 				88FA8051276A99D6002EC660 /* Res.swift in Sources */,
 				88E311B72779E3560037A96C /* CollectionItem.swift in Sources */,
+				88EA643F2783ACB400DF1A4F /* NavigationView.swift in Sources */,
 				88FA804F276A99A1002EC660 /* FillMaxWidth.swift in Sources */,
 				88FA8049276A175F002EC660 /* FillMaxSize.swift in Sources */,
 				88271DBB277BBC0C00B8D47E /* Collections.swift in Sources */,
@@ -373,6 +388,7 @@
 				88FA8033276A1568002EC660 /* Colors.swift in Sources */,
 				88271DBF277C5CC000B8D47E /* TabContent.swift in Sources */,
 				88A29661276E8FEA00343731 /* HomeScreen.swift in Sources */,
+				88EA64412783ACFC00DF1A4F /* Navigation.swift in Sources */,
 				88FA8056276A9A31002EC660 /* Strings.swift in Sources */,
 				88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */,
 				88271DB9277BBA2D00B8D47E /* CollectionTitle.swift in Sources */,
