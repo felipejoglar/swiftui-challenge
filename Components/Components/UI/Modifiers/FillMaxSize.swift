@@ -20,7 +20,7 @@ struct FillMaxSize: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func fillMaxSize(alignment: Alignment = .center) -> some View {
         return self.modifier(FillMaxSize(alignment: alignment))
     }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Components
 
 struct LoginScreen: View {
     var onLoginClick: () -> Void

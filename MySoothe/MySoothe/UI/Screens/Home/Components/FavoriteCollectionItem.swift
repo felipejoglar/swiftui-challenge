@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Components
 
 struct FavoriteCollectionItem: View {
     let collection: Collection

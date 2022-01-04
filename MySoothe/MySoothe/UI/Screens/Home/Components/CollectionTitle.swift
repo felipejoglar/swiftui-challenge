@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Components
 
 struct CollectionTitle: View {
     let label: LocalizedStringKey
