@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Components
 
 struct CollectionItem: View {
     let collection: Collection

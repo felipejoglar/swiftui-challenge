@@ -15,7 +15,7 @@ struct FillMaxHeight: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func fillMaxHeight() -> some View {
         return self.modifier(FillMaxHeight())
     }

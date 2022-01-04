@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Components
 
 struct MySootheContainer<Content: View> : View {
     private let background: Color

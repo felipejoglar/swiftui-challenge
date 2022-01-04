@@ -12,7 +12,7 @@ import SwiftUI
 /// equal to or larger than the corresponding dimension of the view (minus padding). The image is then centered in the view.
 ///
 /// https://stackoverflow.com/a/63651228/7609264
-extension Image {
+public extension Image {
     func centerCropped() -> some View {
         GeometryReader { geo in
             self

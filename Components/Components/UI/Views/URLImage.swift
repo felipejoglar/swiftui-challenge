@@ -10,7 +10,7 @@ import SwiftUI
 /// Custom Image component that loads its content from the given url.
 ///
 /// https://stackoverflow.com/a/68988991/7609264
-struct URLImage : View {
+public struct URLImage : View {
     private let url: String
     private let placeholder: String
     private let isCenterCropped: Bool
@@ -18,13 +18,13 @@ struct URLImage : View {
     @ObservedObject var imageLoader = ImageLoader()
     @State private var contentUiImage: UIImage? = nil
     
-    init(url: String, placeholder: String, isCenterCropped: Bool = false) {
+    public init(url: String, placeholder: String, isCenterCropped: Bool = false) {
         self.url = url
         self.placeholder = placeholder
         self.isCenterCropped = isCenterCropped
     }
     
-    var body: some View {
+    public var body: some View {
         buildInnerImage()
             .centerCropped()
             .onAppear {

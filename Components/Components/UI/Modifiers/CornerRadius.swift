@@ -10,7 +10,7 @@ import SwiftUI
 /// Custom modifier to individualy set the corner radius of a view.
 ///
 /// https://stackoverflow.com/a/58606176/7609264
-extension View {
+public extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape( RoundedCorner(radius: radius, corners: corners) )
     }
