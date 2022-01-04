@@ -11,4 +11,5 @@ struct Images {
     let welcomeBackground = "backgroundWelcome"
     let logo = "logo"
     let loginBackground = "backgroundLogin"
+    let imagePlaceholder = "placeholder"
 }
