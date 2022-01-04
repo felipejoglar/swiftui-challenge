@@ -13,7 +13,7 @@ struct FavoriteCollectionItem: View {
     
     var body: some View {
         HStack(spacing: 0) {
-            URLImage(url: collection.imageURL, placeholder: "")
+            URLImage(url: collection.imageURL, placeholder: Res.images.imagePlaceholder)
                 .frame(width: 56)
             Text(collection.name)
                 .fillMaxSize(alignment: .leading)

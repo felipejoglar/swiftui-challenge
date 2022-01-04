@@ -13,7 +13,7 @@ struct CollectionItem: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            URLImage(url: collection.imageURL, placeholder: "")
+            URLImage(url: collection.imageURL, placeholder: Res.images.imagePlaceholder)
                 .frame(width: 88, height: 88)
                 .clipShape(Circle())
             Text(collection.name)
