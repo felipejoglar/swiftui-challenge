@@ -1,5 +1,8 @@
-# My Soothe sample
+# <img src="https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/MySoothe/MySoothe/Assets.xcassets/AppIcon.appiconset/iPhone_Spotlight_40_2x.png" width="40" height="40"> My Soothe sample
 
+| Light Mode Preview | Dark Mode Preview |
+| ----------- | ----------- |
+| ![Light Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/my_soothe_light_preview.gif) | ![Dark Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/my_soothe_dark_preview.gif) |
 
 # License
 ```
