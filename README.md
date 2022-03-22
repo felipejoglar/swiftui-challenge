@@ -1,5 +1,7 @@
 # <img src="https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/swiftui-logo.png" width="40" height="40"> SwiftUI Challenge
 
+[![CI](https://github.com/felipejoglar/swiftui-challenge/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/felipejoglar/swiftui-challenge/actions/workflows/ci.yml)
+
 This is a SwiftUI version of Android's Jetpack Compose Challenge [repository](https://github.com/fjoglar/jetpack-compose-challenge).
 
 This is meant to be a learning playground project for [SwiftUI](https://developer.apple.com/xcode/swiftui/).
