@@ -24,7 +24,8 @@ The resources & design mocks:
 
 This project will contain three application modules:
 
-1. [MySoothe](https://github.com/fjoglar/swiftui-challenge/tree/main/MySoothe)
+1. [Bloom](https://github.com/fjoglar/swiftui-challenge/tree/main/Bloom)
+2. [MySoothe](https://github.com/fjoglar/swiftui-challenge/tree/main/MySoothe)
 
 # License
 ```
