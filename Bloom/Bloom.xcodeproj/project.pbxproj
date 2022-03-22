@@ -10,7 +10,6 @@
 		88633DB227EA88A2006C600A /* BloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB127EA88A2006C600A /* BloomApp.swift */; };
 		88633DB427EA88A2006C600A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB327EA88A2006C600A /* ContentView.swift */; };
 		88633DB627EA88A5006C600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88633DB527EA88A5006C600A /* Assets.xcassets */; };
-		88633DB927EA88A5006C600A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88633DB827EA88A5006C600A /* Preview Assets.xcassets */; };
 		88633DC127EA88EA006C600A /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88633DC027EA88EA006C600A /* Components.framework */; };
 		88633DC227EA88EA006C600A /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88633DC027EA88EA006C600A /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		88633DB127EA88A2006C600A /* BloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomApp.swift; sourceTree = "<group>"; };
 		88633DB327EA88A2006C600A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88633DB527EA88A5006C600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88633DB827EA88A5006C600A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88633DC027EA88EA006C600A /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,17 +71,8 @@
 				88633DB127EA88A2006C600A /* BloomApp.swift */,
 				88633DB327EA88A2006C600A /* ContentView.swift */,
 				88633DB527EA88A5006C600A /* Assets.xcassets */,
-				88633DB727EA88A5006C600A /* Preview Content */,
 			);
 			path = Bloom;
-			sourceTree = "<group>";
-		};
-		88633DB727EA88A5006C600A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				88633DB827EA88A5006C600A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		88633DBF27EA88EA006C600A /* Frameworks */ = {
@@ -153,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88633DB927EA88A5006C600A /* Preview Assets.xcassets in Resources */,
 				88633DB627EA88A5006C600A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bloom/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bloom/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

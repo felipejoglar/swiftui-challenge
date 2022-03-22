@@ -27,7 +27,6 @@
 		88EA64592784397E00DF1A4F /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA64572784397E00DF1A4F /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		88FA8021276A13C8002EC660 /* MySootheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8020276A13C8002EC660 /* MySootheApp.swift */; };
 		88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8024276A13CA002EC660 /* Assets.xcassets */; };
-		88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FA8027276A13CA002EC660 /* Preview Assets.xcassets */; };
 		88FA8033276A1568002EC660 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8032276A1568002EC660 /* Colors.swift */; };
 		88FA8035276A157C002EC660 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8034276A157C002EC660 /* Theme.swift */; };
 		88FA8037276A15A1002EC660 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA8036276A15A1002EC660 /* Fonts.swift */; };
@@ -79,7 +78,6 @@
 		88FA801D276A13C8002EC660 /* My Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Soothe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FA8020276A13C8002EC660 /* MySootheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySootheApp.swift; sourceTree = "<group>"; };
 		88FA8024276A13CA002EC660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88FA8027276A13CA002EC660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88FA8032276A1568002EC660 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		88FA8034276A157C002EC660 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		88FA8036276A15A1002EC660 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -201,17 +199,8 @@
 				88FA8020276A13C8002EC660 /* MySootheApp.swift */,
 				88FA8024276A13CA002EC660 /* Assets.xcassets */,
 				88FA8042276A1657002EC660 /* Info.plist */,
-				88FA8026276A13CA002EC660 /* Preview Content */,
 			);
 			path = MySoothe;
-			sourceTree = "<group>";
-		};
-		88FA8026276A13CA002EC660 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				88FA8027276A13CA002EC660 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		88FA8030276A1529002EC660 /* UI */ = {
@@ -346,7 +335,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88FA8028276A13CA002EC660 /* Preview Assets.xcassets in Resources */,
 				88FA8025276A13CA002EC660 /* Assets.xcassets in Resources */,
 				88FA8040276A15FE002EC660 /* LatoRegular.ttf in Resources */,
 				88FA8059276A9A92002EC660 /* Localizable.strings in Resources */,
@@ -529,7 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MySoothe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MySoothe/Info.plist;
@@ -560,7 +548,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MySoothe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MySoothe/Info.plist;
