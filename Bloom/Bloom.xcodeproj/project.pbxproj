@@ -23,6 +23,8 @@
 		88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6327EA981400FC1E45 /* Icons.swift */; };
 		88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */; };
 		88F6FA6A27EB328C00FC1E45 /* BloomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6927EB328C00FC1E45 /* BloomButton.swift */; };
+		88F6FA6E27EB39D300FC1E45 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88F6FA7027EB39D300FC1E45 /* Localizable.strings */; };
+		88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7127EB3A7600FC1E45 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +59,8 @@
 		88F6FA6327EA981400FC1E45 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomContainer.swift; sourceTree = "<group>"; };
 		88F6FA6927EB328C00FC1E45 /* BloomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomButton.swift; sourceTree = "<group>"; };
+		88F6FA6F27EB39D300FC1E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88F6FA7127EB3A7600FC1E45 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		88F6FA4F27EA8EB100FC1E45 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				88F6FA6B27EB398E00FC1E45 /* Strings */,
 				88F6FA5927EA916100FC1E45 /* Fonts */,
 				88F6FA5727EA914500FC1E45 /* Res.swift */,
 				88F6FA5027EA8EC400FC1E45 /* Images.swift */,
@@ -164,6 +169,15 @@
 				88F6FA6927EB328C00FC1E45 /* BloomButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		88F6FA6B27EB398E00FC1E45 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				88F6FA7027EB39D300FC1E45 /* Localizable.strings */,
+				88F6FA7127EB3A7600FC1E45 /* Strings.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F6FA6E27EB39D300FC1E45 /* Localizable.strings in Resources */,
 				88633DB627EA88A5006C600A /* Assets.xcassets in Resources */,
 				88F6FA5E27EA91D400FC1E45 /* NunitoSansLight.ttf in Resources */,
 				88F6FA5D27EA91D400FC1E45 /* NunitoSansBold.ttf in Resources */,
@@ -240,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */,
+				88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */,
 				88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */,
 				88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */,
 				88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */,
@@ -253,6 +269,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88F6FA7027EB39D300FC1E45 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F6FA6F27EB39D300FC1E45 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		88633DBA27EA88A5006C600A /* Debug */ = {

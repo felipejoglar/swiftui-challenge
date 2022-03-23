@@ -27,7 +27,7 @@ struct WelcomeScreen: View {
                 Image(Res.images.logo)
                     .padding(.top, 48)
                 
-                Text("Beautiful home garden solutions")
+                Text(Res.strings.welcomeDescription)
                     .font(Theme.fonts.subtitle1)
                     .foregroundColor(Theme.colors.onBackground)
                     .fillMaxWidth()
@@ -35,12 +35,12 @@ struct WelcomeScreen: View {
                     .padding(.bottom, 40)
                 
                 BloomButton(
-                    text:"Create account"
+                    text: Res.strings.welcomeCreateAccount
                 )
                 .fillMaxWidth()
                 
                 BloomButton(
-                    text: "Log in",
+                    text: Res.strings.logIn,
                     backgroundColor: Theme.colors.transparent,
                     onBackgroundColor: Theme.colors.onBackground
                 ) {

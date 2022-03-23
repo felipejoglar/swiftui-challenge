@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Bloom
+
+  Created by Felipe Joglar on 3/23/22.
+  
+*/
+
+// English
+
+// COMMON
+"log_in" = "Log in";
+
+// WELCOME SCREEN
+"welcome_description" = "Beautiful home garden solutions";
+"welcome_create_account" = "Create account";
