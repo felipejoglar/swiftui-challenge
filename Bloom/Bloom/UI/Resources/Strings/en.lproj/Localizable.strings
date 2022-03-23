@@ -14,3 +14,12 @@
 // WELCOME SCREEN
 "welcome_description" = "Beautiful home garden solutions";
 "welcome_create_account" = "Create account";
+
+// LOG IN SCREEN
+"log_in_title" = "Log in with email";
+"log_in_email_label" = "Email address";
+"log_in_password_label" = "Password (8+ characters)";
+"log_in_policies_disclaimer_first" = "By clicking below, you agree to our ";
+"log_in_policies_disclaimer_second" = " and consent to our ";
+"log_in_tos" = "Terms of Use";
+"log_in_privacy" = "Privacy Policy";

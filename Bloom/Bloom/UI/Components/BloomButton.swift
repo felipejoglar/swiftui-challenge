@@ -32,7 +32,7 @@ struct BloomButton: View {
             Text(text)
                 .font(Theme.fonts.button)
                 .padding()
-                .frame(maxWidth: .infinity, minHeight: MIN_HEIGHT, maxHeight: 72)
+                .frame(maxWidth: .infinity, minHeight: MIN_HEIGHT, maxHeight: MIN_HEIGHT)
                 .background(backgroundColor)
                 .foregroundColor(onBackgroundColor)
                 .cornerRadius(MIN_HEIGHT)

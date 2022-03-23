@@ -25,6 +25,8 @@
 		88F6FA6A27EB328C00FC1E45 /* BloomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6927EB328C00FC1E45 /* BloomButton.swift */; };
 		88F6FA6E27EB39D300FC1E45 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88F6FA7027EB39D300FC1E45 /* Localizable.strings */; };
 		88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7127EB3A7600FC1E45 /* Strings.swift */; };
+		88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */; };
+		88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,8 @@
 		88F6FA6927EB328C00FC1E45 /* BloomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomButton.swift; sourceTree = "<group>"; };
 		88F6FA6F27EB39D300FC1E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88F6FA7127EB3A7600FC1E45 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
+		88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				88633DB327EA88A2006C600A /* WelcomeScreen.swift */,
+				88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			children = (
 				88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */,
 				88F6FA6927EB328C00FC1E45 /* BloomButton.swift */,
+				88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -254,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */,
 				88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */,
+				88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */,
 				88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */,
 				88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */,
 				88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */,
