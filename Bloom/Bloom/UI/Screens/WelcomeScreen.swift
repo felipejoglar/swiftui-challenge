@@ -25,14 +25,14 @@ struct WelcomeScreen: View {
                     .offset(x: 88)
                 
                 Image(Res.images.logo)
-                    .padding(.top, 48)
+                    .padding(.top, 40)
                 
                 Text(Res.strings.welcomeDescription)
                     .font(Theme.fonts.subtitle1)
                     .foregroundColor(Theme.colors.onBackground)
                     .fillMaxWidth()
-                    .frame(height: 32, alignment: .bottom)
-                    .padding(.bottom, 40)
+                    .frame(height: 24, alignment: .bottom)
+                    .padding(.bottom, 32)
                 
                 BloomButton(
                     text: Res.strings.welcomeCreateAccount
