@@ -16,4 +16,5 @@ struct Colors {
     let onSecondary = Color("colorOnSecondary")
     let onBackground = Color("colorOnBackground")
     let onSurface = Color("colorOnSurface")
+    let transparent = Color("colorPrimary").opacity(0.01)
 }

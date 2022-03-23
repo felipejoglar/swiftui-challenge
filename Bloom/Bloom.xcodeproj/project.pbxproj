@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88633DB227EA88A2006C600A /* BloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB127EA88A2006C600A /* BloomApp.swift */; };
-		88633DB427EA88A2006C600A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB327EA88A2006C600A /* ContentView.swift */; };
+		88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB327EA88A2006C600A /* WelcomeScreen.swift */; };
 		88633DB627EA88A5006C600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88633DB527EA88A5006C600A /* Assets.xcassets */; };
 		88633DC127EA88EA006C600A /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88633DC027EA88EA006C600A /* Components.framework */; };
 		88633DC227EA88EA006C600A /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88633DC027EA88EA006C600A /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -21,6 +21,8 @@
 		88F6FA5F27EA91D400FC1E45 /* NunitoSansSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88F6FA5C27EA91D400FC1E45 /* NunitoSansSemiBold.ttf */; };
 		88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6127EA934E00FC1E45 /* Fonts.swift */; };
 		88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6327EA981400FC1E45 /* Icons.swift */; };
+		88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */; };
+		88F6FA6A27EB328C00FC1E45 /* BloomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA6927EB328C00FC1E45 /* BloomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +42,7 @@
 /* Begin PBXFileReference section */
 		88633DAE27EA88A2006C600A /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633DB127EA88A2006C600A /* BloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomApp.swift; sourceTree = "<group>"; };
-		88633DB327EA88A2006C600A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88633DB327EA88A2006C600A /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		88633DB527EA88A5006C600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88633DC027EA88EA006C600A /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F6FA5027EA8EC400FC1E45 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		88F6FA6027EA92F100FC1E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		88F6FA6127EA934E00FC1E45 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		88F6FA6327EA981400FC1E45 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomContainer.swift; sourceTree = "<group>"; };
+		88F6FA6927EB328C00FC1E45 /* BloomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				88F6FA4E27EA8EA700FC1E45 /* UI */,
-				88633DB327EA88A2006C600A /* ContentView.swift */,
 				88633DB127EA88A2006C600A /* BloomApp.swift */,
 				88633DB527EA88A5006C600A /* Assets.xcassets */,
 				88F6FA6027EA92F100FC1E45 /* Info.plist */,
@@ -109,6 +112,8 @@
 			children = (
 				88F6FA4F27EA8EB100FC1E45 /* Resources */,
 				88F6FA5227EA90DE00FC1E45 /* Theme */,
+				88F6FA6627EA9F5900FC1E45 /* Components */,
+				88F6FA6527EA9E6D00FC1E45 /* Screens */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -142,6 +147,23 @@
 				88F6FA5C27EA91D400FC1E45 /* NunitoSansSemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88F6FA6527EA9E6D00FC1E45 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				88633DB327EA88A2006C600A /* WelcomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		88F6FA6627EA9F5900FC1E45 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88F6FA6727EA9F7100FC1E45 /* BloomContainer.swift */,
+				88F6FA6927EB328C00FC1E45 /* BloomButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,13 +240,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */,
-				88633DB427EA88A2006C600A /* ContentView.swift in Sources */,
+				88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */,
 				88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */,
+				88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */,
 				88F6FA5427EA90F000FC1E45 /* Colors.swift in Sources */,
 				88F6FA5827EA914500FC1E45 /* Res.swift in Sources */,
 				88F6FA5627EA912B00FC1E45 /* Theme.swift in Sources */,
 				88F6FA5127EA8EC400FC1E45 /* Images.swift in Sources */,
 				88633DB227EA88A2006C600A /* BloomApp.swift in Sources */,
+				88F6FA6A27EB328C00FC1E45 /* BloomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
