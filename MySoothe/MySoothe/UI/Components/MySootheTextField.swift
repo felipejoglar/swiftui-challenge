@@ -35,7 +35,6 @@ struct MySootheTextField: View {
     @ViewBuilder
     var body: some View {
         ZStack(alignment: .leading) {
-            if leadingIcon != nil { getLeadingIcon(name: leadingIcon!) }
             getTextField()
                 .frame(height: 56)
                 .padding(.horizontal, leadingIcon != nil ? 40 : 24)
@@ -51,6 +50,7 @@ struct MySootheTextField: View {
                 .cornerRadius(4, corners: .topLeft)
                 .cornerRadius(4, corners: .topRight)
                 .accentColor(Theme.colors.onSurface)
+            if leadingIcon != nil { getLeadingIcon(name: leadingIcon!) }
         }
     }
     
@@ -66,7 +66,7 @@ struct MySootheTextField: View {
     
     @ViewBuilder
     private func getLeadingIcon(name: String) -> some View {
-        Image(systemName: "magnifyingglass")
+        Image(systemName: name)
             .foregroundColor(Theme.colors.onSurface)
             .frame(width: 18, height: 18)
             .padding(.leading, 16)
@@ -78,7 +78,7 @@ struct MySootheTextField_Previews: PreviewProvider {
     
     static var previews: some View {
         let view = MySootheTextField("My Soothe", text: $text)
-        let viewWithIcon = MySootheTextField("My Soothe", text: $text, leadingIcon: "search")
+        let viewWithIcon = MySootheTextField("My Soothe", text: $text, leadingIcon: Res.icons.search)
         
         Group {
             view
