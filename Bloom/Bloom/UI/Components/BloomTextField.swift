@@ -34,7 +34,6 @@ struct BloomTextField: View {
     @ViewBuilder
     var body: some View {
         ZStack(alignment: .leading) {
-            if leadingIcon != nil { getLeadingIcon(name: leadingIcon!) }
             getTextField()
                 .frame(height: 56)
                 .padding(.horizontal, leadingIcon != nil ? 40 : 24)
@@ -46,6 +45,7 @@ struct BloomTextField: View {
                         .stroke(Theme.colors.textFieldBorder, lineWidth: 2)
                 )
                 .cornerRadius(4, corners: .allCorners)
+            if leadingIcon != nil { getLeadingIcon(name: leadingIcon!) }
         }
     }
     
@@ -73,7 +73,7 @@ struct BloomTextField_Previews: PreviewProvider {
     
     static var previews: some View {
         let view = BloomTextField("Bloom", text: $text)
-        let viewWithIcon = BloomTextField("Bloom", text: $text, leadingIcon: "magnifyingglass")
+        let viewWithIcon = BloomTextField("Bloom", text: $text, leadingIcon: Res.icons.search)
         
         Group {
             view
@@ -83,6 +83,6 @@ struct BloomTextField_Previews: PreviewProvider {
         }
         .padding()
         .previewLayout(.sizeThatFits)
-        .background(Theme.colors.secondary)
+        .background(Theme.colors.background)
     }
 }
