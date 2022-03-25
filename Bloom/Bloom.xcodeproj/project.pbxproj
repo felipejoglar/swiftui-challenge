@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883F0B5E27EC9B9B00D09CF7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F0B5D27EC9B9B00D09CF7 /* Repository.swift */; };
+		883F0B6027EC9BF600D09CF7 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F0B5F27EC9BF600D09CF7 /* Plant.swift */; };
+		883F0B6327EC9C4700D09CF7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F0B6227EC9C4700D09CF7 /* Category.swift */; };
 		88633DB227EA88A2006C600A /* BloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB127EA88A2006C600A /* BloomApp.swift */; };
 		88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88633DB327EA88A2006C600A /* WelcomeScreen.swift */; };
 		88633DB627EA88A5006C600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88633DB527EA88A5006C600A /* Assets.xcassets */; };
@@ -27,6 +30,7 @@
 		88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7127EB3A7600FC1E45 /* Strings.swift */; };
 		88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */; };
 		88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */; };
+		88FF911327ECC6990041D946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF911227ECC6990041D946 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		883F0B5D27EC9B9B00D09CF7 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		883F0B5F27EC9BF600D09CF7 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		883F0B6227EC9C4700D09CF7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		88633DAE27EA88A2006C600A /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633DB127EA88A2006C600A /* BloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomApp.swift; sourceTree = "<group>"; };
 		88633DB327EA88A2006C600A /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
@@ -65,6 +72,7 @@
 		88F6FA7127EB3A7600FC1E45 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
 		88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTextField.swift; sourceTree = "<group>"; };
+		88FF911227ECC6990041D946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		883F0B5B27EC9B6700D09CF7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88FF911227ECC6990041D946 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		883F0B5C27EC9B8B00D09CF7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				883F0B6127EC9C3600D09CF7 /* Model */,
+				883F0B5D27EC9B9B00D09CF7 /* Repository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		883F0B6127EC9C3600D09CF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				883F0B5F27EC9BF600D09CF7 /* Plant.swift */,
+				883F0B6227EC9C4700D09CF7 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		88633DA527EA88A2006C600A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +133,7 @@
 		88633DB027EA88A2006C600A /* Bloom */ = {
 			isa = PBXGroup;
 			children = (
+				883F0B5C27EC9B8B00D09CF7 /* Data */,
 				88F6FA4E27EA8EA700FC1E45 /* UI */,
 				88633DB127EA88A2006C600A /* BloomApp.swift */,
 				88633DB527EA88A5006C600A /* Assets.xcassets */,
@@ -161,6 +196,7 @@
 		88F6FA6527EA9E6D00FC1E45 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				883F0B5B27EC9B6700D09CF7 /* Home */,
 				88633DB327EA88A2006C600A /* WelcomeScreen.swift */,
 				88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */,
 			);
@@ -267,8 +303,12 @@
 				88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */,
 				88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */,
 				88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */,
+				883F0B6027EC9BF600D09CF7 /* Plant.swift in Sources */,
+				883F0B5E27EC9B9B00D09CF7 /* Repository.swift in Sources */,
+				883F0B6327EC9C4700D09CF7 /* Category.swift in Sources */,
 				88F6FA5427EA90F000FC1E45 /* Colors.swift in Sources */,
 				88F6FA5827EA914500FC1E45 /* Res.swift in Sources */,
+				88FF911327ECC6990041D946 /* HomeScreen.swift in Sources */,
 				88F6FA5627EA912B00FC1E45 /* Theme.swift in Sources */,
 				88F6FA5127EA8EC400FC1E45 /* Images.swift in Sources */,
 				88633DB227EA88A2006C600A /* BloomApp.swift in Sources */,
