@@ -18,7 +18,7 @@ public struct URLImage : View {
     @ObservedObject var imageLoader = ImageLoader()
     @State private var contentUiImage: UIImage? = nil
     
-    public init(url: String, placeholder: String, isCenterCropped: Bool = false) {
+    public init(url: String, placeholder: String, isCenterCropped: Bool = true) {
         self.url = url
         self.placeholder = placeholder
         self.isCenterCropped = isCenterCropped
@@ -26,7 +26,9 @@ public struct URLImage : View {
     
     public var body: some View {
         buildInnerImage()
-            .centerCropped()
+            .if(isCenterCropped) { view in
+                view.centerCropped()
+            }
             .onAppear {
                 imageLoader.loadImage(from: url)
             }
@@ -54,6 +56,23 @@ class ImageLoader: ObservableObject {
             }
         }
         task.resume()
+    }
+}
+
+private extension View {
+    /// Applies the given transform if the given condition evaluates to `true`.
+    /// - Parameters:
+    ///   - condition: The condition to evaluate.
+    ///   - transform: The transform to apply to the source `View`.
+    /// - Returns: Either the original `View` or the modified `View` if the condition is `true`.
+    ///
+    /// https://www.avanderlee.com/swiftui/conditional-view-modifier/
+    @ViewBuilder func `if`<Content: View>(_ condition: @autoclosure () -> Bool, transform: (Self) -> Content) -> some View {
+        if condition() {
+            transform(self)
+        } else {
+            self
+        }
     }
 }
 
