@@ -36,7 +36,7 @@ struct Repository {
         )
     ]
     
-    static let catgories = [
+    static let categories = [
         Category(
             name: "Desert chic",
             imageUrl: "https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&h=480&w=800"
