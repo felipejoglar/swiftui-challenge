@@ -19,7 +19,7 @@ struct Repository {
             imageUrl: "https://images.pexels.com/photos/4751978/pexels-photo-4751978.jpeg?auto=compress&cs=tinysrgb&h=480&w=800"
         ),
         Plant(
-            name: "Peace lili",
+            name: "Peace lily",
             imageUrl: "https://images.pexels.com/photos/4425201/pexels-photo-4425201.jpeg?auto=compress&cs=tinysrgb&h=480&w=800"
         ),
         Plant(
