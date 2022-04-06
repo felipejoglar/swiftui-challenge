@@ -33,6 +33,8 @@
 		88FF911327ECC6990041D946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF911227ECC6990041D946 /* HomeScreen.swift */; };
 		B11ADF3627FE2DE700EB425D /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3527FE2DE700EB425D /* HomeContainer.swift */; };
 		B11ADF3827FE2E0F00EB425D /* TabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3727FE2E0F00EB425D /* TabContent.swift */; };
+		B11ADF3B27FE435E00EB425D /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3A27FE435E00EB425D /* Navigation.swift */; };
+		B11ADF3D27FE443400EB425D /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3C27FE443400EB425D /* NavigationView.swift */; };
 		B19FC52E27FCE33800CE1DD0 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FC52D27FCE33800CE1DD0 /* Themes.swift */; };
 		B19FC53127FCFAE800CE1DD0 /* PlantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FC53027FCFAE800CE1DD0 /* PlantViewModel.swift */; };
 		B1BFB5F827FDB02B002223B2 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFB5F727FDB02B002223B2 /* Plants.swift */; };
@@ -81,6 +83,8 @@
 		88FF911227ECC6990041D946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		B11ADF3527FE2DE700EB425D /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
 		B11ADF3727FE2E0F00EB425D /* TabContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContent.swift; sourceTree = "<group>"; };
+		B11ADF3A27FE435E00EB425D /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		B11ADF3C27FE443400EB425D /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		B19FC52D27FCE33800CE1DD0 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 		B19FC53027FCFAE800CE1DD0 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewModel.swift; sourceTree = "<group>"; };
 		B1BFB5F727FDB02B002223B2 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 		88633DB027EA88A2006C600A /* Bloom */ = {
 			isa = PBXGroup;
 			children = (
+				B11ADF3927FE434900EB425D /* Navigation */,
 				883F0B5C27EC9B8B00D09CF7 /* Data */,
 				88F6FA4E27EA8EA700FC1E45 /* UI */,
 				88633DB127EA88A2006C600A /* BloomApp.swift */,
@@ -235,6 +240,15 @@
 				88F6FA7127EB3A7600FC1E45 /* Strings.swift */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		B11ADF3927FE434900EB425D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B11ADF3A27FE435E00EB425D /* Navigation.swift */,
+				B11ADF3C27FE443400EB425D /* NavigationView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		B19FC52C27FCE32500CE1DD0 /* Components */ = {
@@ -333,6 +347,7 @@
 				B11ADF3627FE2DE700EB425D /* HomeContainer.swift in Sources */,
 				88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */,
 				88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */,
+				B11ADF3B27FE435E00EB425D /* Navigation.swift in Sources */,
 				B11ADF3827FE2E0F00EB425D /* TabContent.swift in Sources */,
 				B19FC53127FCFAE800CE1DD0 /* PlantViewModel.swift in Sources */,
 				88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */,
@@ -351,6 +366,7 @@
 				B1BFB5FA27FDB275002223B2 /* PlantRow.swift in Sources */,
 				88F6FA5627EA912B00FC1E45 /* Theme.swift in Sources */,
 				88F6FA5127EA8EC400FC1E45 /* Images.swift in Sources */,
+				B11ADF3D27FE443400EB425D /* NavigationView.swift in Sources */,
 				88633DB227EA88A2006C600A /* BloomApp.swift in Sources */,
 				88F6FA6A27EB328C00FC1E45 /* BloomButton.swift in Sources */,
 			);
