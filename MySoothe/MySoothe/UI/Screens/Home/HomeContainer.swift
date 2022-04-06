@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct HomeContainer: View {
-    let tabs: [TabContent]
+    private let tabs: [TabContent]
+    
+    init(tabs: [TabContent]) {
+        self.tabs = tabs
+        UITabBar.appearance().backgroundColor = UIColor(Theme.colors.background)
+    }
     
     var body: some View {
         TabView {
@@ -21,7 +26,6 @@ struct HomeContainer: View {
                     }
             }
         }
-        .background(Theme.colors.background)
         .accentColor(Theme.colors.onBackground)
         .overlay(HomeActionButton().padding(.bottom, 21), alignment: .bottom)
     }
