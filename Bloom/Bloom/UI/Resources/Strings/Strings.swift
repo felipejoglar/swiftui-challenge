@@ -20,4 +20,12 @@ struct Strings {
     let logInPoliciesDisclaimerSecond: LocalizedStringKey = "log_in_policies_disclaimer_second"
     let logInTOS: LocalizedStringKey = "log_in_tos"
     let logInPrivacy: LocalizedStringKey = "log_in_privacy"
+    
+    let homeMenuHome: LocalizedStringKey = "home_menu_home"
+    let homeMenuFavorites: LocalizedStringKey = "home_menu_favorites"
+    let homeMenuProfile: LocalizedStringKey = "home_menu_profile"
+    let homeMenuCart: LocalizedStringKey = "home_menu_cart"
+    let homeSearchLabel: LocalizedStringKey = "home_search_label"
+    let homeBrowseThemesSectionTitle: LocalizedStringKey = "home_browse_themes_section_title"
+    let homeBrowseGardenSectionTitle: LocalizedStringKey = "home_home_garden_section_title"
 }

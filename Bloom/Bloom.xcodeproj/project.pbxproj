@@ -31,6 +31,12 @@
 		88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */; };
 		88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */; };
 		88FF911327ECC6990041D946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF911227ECC6990041D946 /* HomeScreen.swift */; };
+		B11ADF3627FE2DE700EB425D /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3527FE2DE700EB425D /* HomeContainer.swift */; };
+		B11ADF3827FE2E0F00EB425D /* TabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF3727FE2E0F00EB425D /* TabContent.swift */; };
+		B19FC52E27FCE33800CE1DD0 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FC52D27FCE33800CE1DD0 /* Themes.swift */; };
+		B19FC53127FCFAE800CE1DD0 /* PlantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FC53027FCFAE800CE1DD0 /* PlantViewModel.swift */; };
+		B1BFB5F827FDB02B002223B2 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFB5F727FDB02B002223B2 /* Plants.swift */; };
+		B1BFB5FA27FDB275002223B2 /* PlantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFB5F927FDB275002223B2 /* PlantRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +79,12 @@
 		88F6FA7327EB7CDF00FC1E45 /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
 		88F6FA7527EB82DC00FC1E45 /* BloomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomTextField.swift; sourceTree = "<group>"; };
 		88FF911227ECC6990041D946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B11ADF3527FE2DE700EB425D /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
+		B11ADF3727FE2E0F00EB425D /* TabContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContent.swift; sourceTree = "<group>"; };
+		B19FC52D27FCE33800CE1DD0 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		B19FC53027FCFAE800CE1DD0 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewModel.swift; sourceTree = "<group>"; };
+		B1BFB5F727FDB02B002223B2 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
+		B1BFB5F927FDB275002223B2 /* PlantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +102,10 @@
 		883F0B5B27EC9B6700D09CF7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B19FC52F27FCFAD600CE1DD0 /* Model */,
+				B19FC52C27FCE32500CE1DD0 /* Components */,
 				88FF911227ECC6990041D946 /* HomeScreen.swift */,
+				B11ADF3527FE2DE700EB425D /* HomeContainer.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -222,6 +237,25 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		B19FC52C27FCE32500CE1DD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFB5F727FDB02B002223B2 /* Plants.swift */,
+				B19FC52D27FCE33800CE1DD0 /* Themes.swift */,
+				B1BFB5F927FDB275002223B2 /* PlantRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B19FC52F27FCFAD600CE1DD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19FC53027FCFAE800CE1DD0 /* PlantViewModel.swift */,
+				B11ADF3727FE2E0F00EB425D /* TabContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,10 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11ADF3627FE2DE700EB425D /* HomeContainer.swift in Sources */,
 				88F6FA7627EB82DC00FC1E45 /* BloomTextField.swift in Sources */,
 				88F6FA6227EA934E00FC1E45 /* Fonts.swift in Sources */,
+				B11ADF3827FE2E0F00EB425D /* TabContent.swift in Sources */,
+				B19FC53127FCFAE800CE1DD0 /* PlantViewModel.swift in Sources */,
 				88F6FA7427EB7CDF00FC1E45 /* LogInScreen.swift in Sources */,
 				88F6FA7227EB3A7600FC1E45 /* Strings.swift in Sources */,
+				B1BFB5F827FDB02B002223B2 /* Plants.swift in Sources */,
 				88633DB427EA88A2006C600A /* WelcomeScreen.swift in Sources */,
 				88F6FA6427EA981400FC1E45 /* Icons.swift in Sources */,
 				88F6FA6827EA9F7100FC1E45 /* BloomContainer.swift in Sources */,
@@ -309,6 +347,8 @@
 				88F6FA5427EA90F000FC1E45 /* Colors.swift in Sources */,
 				88F6FA5827EA914500FC1E45 /* Res.swift in Sources */,
 				88FF911327ECC6990041D946 /* HomeScreen.swift in Sources */,
+				B19FC52E27FCE33800CE1DD0 /* Themes.swift in Sources */,
+				B1BFB5FA27FDB275002223B2 /* PlantRow.swift in Sources */,
 				88F6FA5627EA912B00FC1E45 /* Theme.swift in Sources */,
 				88F6FA5127EA8EC400FC1E45 /* Images.swift in Sources */,
 				88633DB227EA88A2006C600A /* BloomApp.swift in Sources */,
