@@ -26,6 +26,7 @@ This project will contain three application modules:
 
 1. [Bloom](https://github.com/fjoglar/swiftui-challenge/tree/main/Bloom)
 2. [MySoothe](https://github.com/fjoglar/swiftui-challenge/tree/main/MySoothe)
+3. [WeTrade](https://github.com/fjoglar/swiftui-challenge/tree/main/WeTrade)
 
 # License
 ```

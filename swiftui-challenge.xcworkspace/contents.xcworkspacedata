@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:WeTrade/WeTrade.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Bloom/Bloom.xcodeproj">
    </FileRef>
    <FileRef
