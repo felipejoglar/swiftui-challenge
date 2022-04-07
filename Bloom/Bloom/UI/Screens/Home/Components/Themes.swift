@@ -30,7 +30,7 @@ struct Themes: View {
                             RoundedRectangle(cornerRadius: 4)
                                 .fill(Theme.colors.surface)
                             VStack(spacing: 0) {
-                                URLImage(url: category.imageUrl, placeholder: Res.images.welcomeIllos)
+                                URLImage(url: category.imageUrl, placeholder: Res.images.placeholder)
                                     .frame(width: 136, height: 96)
                                 
                                 Text(category.name)

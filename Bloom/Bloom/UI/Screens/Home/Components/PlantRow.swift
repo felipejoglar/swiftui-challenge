@@ -22,7 +22,7 @@ struct PlantRow: View {
         HStack(
             spacing: 0
         ) {
-            URLImage(url: plantModel.plant.imageUrl, placeholder: Res.images.welcomeIllos)
+            URLImage(url: plantModel.plant.imageUrl, placeholder: Res.images.placeholder)
                 .aspectRatio(1.0, contentMode: .fit)
                 .cornerRadius(4)
             
