@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Theme {
+    static let colors = Colors()
+    static let fonts = Fonts()
+}

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Res {
+    static let images = Images()
+    static let icons = Icons()
+}

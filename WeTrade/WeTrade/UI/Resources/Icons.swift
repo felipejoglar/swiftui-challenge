@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Icons {
+    let mailOutline = "envelope"
+    let password = "asterisk.circle"
+    let expandMore = "chevron.down"
+}

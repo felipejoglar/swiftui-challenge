@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Images {
+    let logo = "logo"
+    let welcomeBackground = "welcomeBackground"
+    let loginBackground = "loginBackground"
+}
