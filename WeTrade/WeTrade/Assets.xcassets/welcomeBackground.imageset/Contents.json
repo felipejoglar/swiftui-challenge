@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "welcome_bg.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
