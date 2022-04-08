@@ -11,7 +11,7 @@ import SwiftUI
 struct WeTradeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeScreen()
         }
     }
 }
