@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  WeTrade
+
+  Created by Felipe Joglar on 4/14/22.
+  
+*/
+
+// English
+
+// COMMON
+"log_in" = "Log in";
+
+// WELCOME SCREEN
+"welcome_get_started" = "Get started";
