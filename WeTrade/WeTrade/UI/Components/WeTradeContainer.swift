@@ -10,18 +10,21 @@ import Components
 
 struct WeTradeContainer<Content: View>: View {
     private let background: Color
+    private let alignment: Alignment
     private let content: () -> Content
     
     init(
         background: Color = Theme.colors.background,
+        alignment: Alignment = .center,
         @ViewBuilder content: @escaping () -> Content
     ) {
         self.background = background
+        self.alignment = alignment
         self.content = content
     }
     
     var body: some View {
-        ZStack(content: content)
+        ZStack(alignment: alignment, content: content)
             .fillMaxSize()
             .background(background)
             .ignoresSafeArea()

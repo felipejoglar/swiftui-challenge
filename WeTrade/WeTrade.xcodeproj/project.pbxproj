@@ -11,11 +11,13 @@
 		886727592808BAC6002C2864 /* WeTradeOutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886727582808BAC6002C2864 /* WeTradeOutlinedButton.swift */; };
 		8867275D2808BD6C002C2864 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8867275F2808BD6C002C2864 /* Localizable.strings */; };
 		886727612808BDED002C2864 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886727602808BDED002C2864 /* Strings.swift */; };
+		B112785E280E998000434F66 /* WeTradeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112785D280E998000434F66 /* WeTradeTextField.swift */; };
 		B11ADF4B27FE508D00EB425D /* WeTradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF4A27FE508D00EB425D /* WeTradeApp.swift */; };
 		B11ADF4D27FE508D00EB425D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ADF4C27FE508D00EB425D /* WelcomeScreen.swift */; };
 		B11ADF4F27FE508F00EB425D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11ADF4E27FE508F00EB425D /* Assets.xcassets */; };
 		B11ADF5A27FE50E000EB425D /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11ADF5927FE50E000EB425D /* Components.framework */; };
 		B11ADF5B27FE50E000EB425D /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B11ADF5927FE50E000EB425D /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B11E091A280E223F00261EA3 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E0919280E223F00261EA3 /* LoginScreen.swift */; };
 		B173C1A727FF91BF00485D0D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1A627FF91BF00485D0D /* Theme.swift */; };
 		B173C1A927FF91D600485D0D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1A827FF91D600485D0D /* Colors.swift */; };
 		B173C1AB27FF922C00485D0D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1AA27FF922C00485D0D /* Fonts.swift */; };
@@ -49,11 +51,13 @@
 		886727582808BAC6002C2864 /* WeTradeOutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTradeOutlinedButton.swift; sourceTree = "<group>"; };
 		8867275E2808BD6C002C2864 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		886727602808BDED002C2864 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		B112785D280E998000434F66 /* WeTradeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTradeTextField.swift; sourceTree = "<group>"; };
 		B11ADF4727FE508D00EB425D /* WeTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11ADF4A27FE508D00EB425D /* WeTradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTradeApp.swift; sourceTree = "<group>"; };
 		B11ADF4C27FE508D00EB425D /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		B11ADF4E27FE508F00EB425D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11ADF5927FE50E000EB425D /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11E0919280E223F00261EA3 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		B173C1A627FF91BF00485D0D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B173C1A827FF91D600485D0D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B173C1AA27FF922C00485D0D /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B11ADF4C27FE508D00EB425D /* WelcomeScreen.swift */,
+				B11E0919280E223F00261EA3 /* LoginScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				B173C1C027FF980C00485D0D /* WeTradeContainer.swift */,
 				886727562808B93B002C2864 /* WeTradeButton.swift */,
 				886727582808BAC6002C2864 /* WeTradeOutlinedButton.swift */,
+				B112785D280E998000434F66 /* WeTradeTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B112785E280E998000434F66 /* WeTradeTextField.swift in Sources */,
+				B11E091A280E223F00261EA3 /* LoginScreen.swift in Sources */,
 				886727572808B93C002C2864 /* WeTradeButton.swift in Sources */,
 				B173C1BC27FF956C00485D0D /* Icons.swift in Sources */,
 				B173C1C127FF980C00485D0D /* WeTradeContainer.swift in Sources */,

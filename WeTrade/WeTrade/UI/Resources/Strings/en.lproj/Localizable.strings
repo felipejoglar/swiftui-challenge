@@ -13,3 +13,8 @@
 
 // WELCOME SCREEN
 "welcome_get_started" = "Get started";
+
+// LOG IN SCREEN
+"login_title" = "Welcome back";
+"login_email_hint" = "Email address";
+"login_password_hint" = "Password";

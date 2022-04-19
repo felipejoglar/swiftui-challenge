@@ -19,4 +19,7 @@ struct Colors {
     // CUSTOM
     let custom1 = Color("colorCustom1")
     let custom2 = Color("colorCustom2")
+    
+    // COMPONENTS
+    let textFieldBorder = Color("colorTextFieldBorder")
 }

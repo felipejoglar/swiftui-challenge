@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct WeTradeApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            WelcomeScreen(onLoginClick: {})
+            LoginScreen(onLoginClick: {})
         }
     }
 }
