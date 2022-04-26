@@ -2,7 +2,7 @@
 
 | Light Mode Preview | Dark Mode Preview |
 | ----------- | ----------- |
-| ![Light Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/my_soothe_light_preview.gif) | ![Dark Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/my_soothe_dark_preview.gif) |
+| ![Light Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/MySoothe_iPhone_13_Pro_Max_Light.gif) | ![Dark Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/MySoothe_iPhone_13_Pro_Max_Dark.gif) |
 
 # License
 ```
