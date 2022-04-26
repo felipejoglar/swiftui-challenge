@@ -26,9 +26,7 @@ struct TabView<Label: View>: View {
         let index = self.tabs.firstIndex(of: title)!
         let isSelected = index == selection
         return Button(action: {
-            withAnimation {
                 self.selection = index
-            }
         }) {
             label(title, isSelected)
                 .fillMaxWidth()
