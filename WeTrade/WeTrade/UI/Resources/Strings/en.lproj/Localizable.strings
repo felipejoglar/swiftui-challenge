@@ -18,3 +18,19 @@
 "login_title" = "Welcome back";
 "login_email_hint" = "Email address";
 "login_password_hint" = "Password";
+
+// HOME SCREEN
+"home_menu_account" = "Account";
+"home_menu_watchlist" = "Watchlist";
+"home_menu_profile" = "Profile";
+"home_account_balance" = "Balance";
+"home_account_total" = "$73,589.01";
+"home_account_today_diff" = "+412.35 today";
+"home_account_transact" = "Transact";
+"home_account_filter_week" = "Week ";
+"home_account_filter_etfs" = "ETFs";
+"home_account_filter_stocks" = "Stocks";
+"home_account_filter_funds" = "Funds";
+"home_account_filter_crypto" = "Crypto";
+"home_account_filter_nfts" = "NFTs";
+"home_account_positions_title" = "Positions";

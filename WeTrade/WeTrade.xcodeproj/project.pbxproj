@@ -30,8 +30,16 @@
 		B173C1BC27FF956C00485D0D /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1BB27FF956C00485D0D /* Icons.swift */; };
 		B173C1BE27FF96F400485D0D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1BD27FF96F400485D0D /* Images.swift */; };
 		B173C1C127FF980C00485D0D /* WeTradeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1C027FF980C00485D0D /* WeTradeContainer.swift */; };
+		B1952163281817F000D5170F /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1952162281817F000D5170F /* TabView.swift */; };
+		B1952165281818CB00D5170F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1952164281818CB00D5170F /* HomeScreen.swift */; };
+		B19521672818196E00D5170F /* StockHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19521662818196E00D5170F /* StockHeaderView.swift */; };
+		B195216928181A0E00D5170F /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195216828181A0E00D5170F /* StocksView.swift */; };
+		B195216B28181A5100D5170F /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195216A28181A5100D5170F /* StockView.swift */; };
 		B19C689E28120B8900A15888 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C689D28120B8900A15888 /* Stock.swift */; };
 		B19C68A028120C1900A15888 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C689F28120C1900A15888 /* Repository.swift */; };
+		B19C68A22812106A00A15888 /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C68A12812106A00A15888 /* HomeContainer.swift */; };
+		B1ADCB622817400100759A1E /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ADCB612817400100759A1E /* FilterView.swift */; };
+		B1ADCB642817418B00759A1E /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ADCB632817418B00759A1E /* BottomSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,8 +81,16 @@
 		B173C1BB27FF956C00485D0D /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		B173C1BD27FF96F400485D0D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B173C1C027FF980C00485D0D /* WeTradeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTradeContainer.swift; sourceTree = "<group>"; };
+		B1952162281817F000D5170F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		B1952164281818CB00D5170F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B19521662818196E00D5170F /* StockHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHeaderView.swift; sourceTree = "<group>"; };
+		B195216828181A0E00D5170F /* StocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksView.swift; sourceTree = "<group>"; };
+		B195216A28181A5100D5170F /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
 		B19C689D28120B8900A15888 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		B19C689F28120C1900A15888 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B19C68A12812106A00A15888 /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
+		B1ADCB612817400100759A1E /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		B1ADCB632817418B00759A1E /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +108,7 @@
 		8835DAE72800E6A000710E8C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B1ADCB5F28173FEA00759A1E /* Home */,
 				B11ADF4C27FE508D00EB425D /* WelcomeScreen.swift */,
 				B11E0919280E223F00261EA3 /* LoginScreen.swift */,
 			);
@@ -217,6 +234,29 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B1ADCB5F28173FEA00759A1E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1ADCB6028173FF000759A1E /* Components */,
+				B19C68A12812106A00A15888 /* HomeContainer.swift */,
+				B1952164281818CB00D5170F /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1ADCB6028173FF000759A1E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1952162281817F000D5170F /* TabView.swift */,
+				B1ADCB632817418B00759A1E /* BottomSheetView.swift */,
+				B1ADCB612817400100759A1E /* FilterView.swift */,
+				B19521662818196E00D5170F /* StockHeaderView.swift */,
+				B195216828181A0E00D5170F /* StocksView.swift */,
+				B195216A28181A5100D5170F /* StockView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,17 +334,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B112785E280E998000434F66 /* WeTradeTextField.swift in Sources */,
+				B195216928181A0E00D5170F /* StocksView.swift in Sources */,
 				B11E091A280E223F00261EA3 /* LoginScreen.swift in Sources */,
 				886727572808B93C002C2864 /* WeTradeButton.swift in Sources */,
 				B173C1BC27FF956C00485D0D /* Icons.swift in Sources */,
+				B1ADCB622817400100759A1E /* FilterView.swift in Sources */,
 				B173C1C127FF980C00485D0D /* WeTradeContainer.swift in Sources */,
 				B173C1A727FF91BF00485D0D /* Theme.swift in Sources */,
 				B173C1AB27FF922C00485D0D /* Fonts.swift in Sources */,
+				B195216B28181A5100D5170F /* StockView.swift in Sources */,
 				B173C1BA27FF954C00485D0D /* Res.swift in Sources */,
 				B19C689E28120B8900A15888 /* Stock.swift in Sources */,
+				B1952163281817F000D5170F /* TabView.swift in Sources */,
+				B1ADCB642817418B00759A1E /* BottomSheetView.swift in Sources */,
+				B19521672818196E00D5170F /* StockHeaderView.swift in Sources */,
 				B173C1A927FF91D600485D0D /* Colors.swift in Sources */,
 				B173C1BE27FF96F400485D0D /* Images.swift in Sources */,
+				B1952165281818CB00D5170F /* HomeScreen.swift in Sources */,
 				B19C68A028120C1900A15888 /* Repository.swift in Sources */,
+				B19C68A22812106A00A15888 /* HomeContainer.swift in Sources */,
 				886727592808BAC6002C2864 /* WeTradeOutlinedButton.swift in Sources */,
 				B11ADF4D27FE508D00EB425D /* WelcomeScreen.swift in Sources */,
 				886727612808BDED002C2864 /* Strings.swift in Sources */,
