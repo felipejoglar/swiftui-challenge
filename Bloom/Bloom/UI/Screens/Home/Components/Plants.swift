@@ -2,7 +2,7 @@
 //  Plants.swift
 //  Bloom
 //
-//  Created by AsturianCoder on 6/4/22.
+//  Created by Felipe Joglar on 6/4/22.
 //
 
 import SwiftUI

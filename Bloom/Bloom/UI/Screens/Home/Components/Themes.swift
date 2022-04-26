@@ -2,7 +2,7 @@
 //  Themes.swift
 //  Bloom
 //
-//  Created by AsturianCoder on 5/4/22.
+//  Created by Felipe Joglar on 5/4/22.
 //
 
 import SwiftUI

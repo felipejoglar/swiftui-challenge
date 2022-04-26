@@ -1,8 +1,8 @@
 //
-//  HomeContent.swift
+//  HomeScreen.swift
 //  WeTrade
 //
-//  Created by AsturianCoder on 26/4/22.
+//  Created by Felipe Joglar on 26/4/22.
 //
 
 import SwiftUI

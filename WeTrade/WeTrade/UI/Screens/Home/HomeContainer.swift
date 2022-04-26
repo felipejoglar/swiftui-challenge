@@ -2,7 +2,7 @@
 //  HomeContainer.swift
 //  WeTrade
 //
-//  Created by AsturianCoder on 22/4/22.
+//  Created by Felipe Joglar on 22/4/22.
 //
 
 import SwiftUI

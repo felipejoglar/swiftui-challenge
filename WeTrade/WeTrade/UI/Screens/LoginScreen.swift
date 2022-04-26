@@ -2,7 +2,7 @@
 //  LoginScreen.swift
 //  WeTrade
 //
-//  Created by AsturianCoder on 19/4/22.
+//  Created by Felipe Joglar on 19/4/22.
 //
 
 import SwiftUI

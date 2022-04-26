@@ -2,7 +2,7 @@
 //  WeTradeContainer.swift
 //  WeTrade
 //
-//  Created by AsturianCoder on 8/4/22.
+//  Created by Felipe Joglar on 8/4/22.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  BottomSheetView.swift
 //  WeTrade
 //
-//  Created by AsturianCoder on 25/4/22.
+//  Created by Felipe Joglar on 25/4/22.
 //
 
 import SwiftUI
