@@ -17,7 +17,7 @@ class Navigation : ObservableObject {
     private let tabs = [
         TabItem(
             title: Res.strings.homeMenuAccount,
-            content: AnyView(HomeScreen(stocks: Repository.stocks))
+            content: AnyView(HomeScreen())
         ),
         TabItem(
             title: Res.strings.homeMenuWatchlist,
@@ -44,7 +44,7 @@ class Navigation : ObservableObject {
     ]
     
     init() {
-        homeScreen = AnyView(HomeContainer(tabs: tabs))
+        homeScreen = AnyView(HomeContainer(tabs: tabs, stocks: Repository.stocks))
         loginScreen = AnyView(LoginScreen(onLoginClick: loginScreenClick))
         welcomeScreen = AnyView(WelcomeScreen(onLoginClick: welcomeScreenClick))
         

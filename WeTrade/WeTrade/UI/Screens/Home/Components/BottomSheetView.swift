@@ -27,7 +27,7 @@ struct BottomSheetView<Header: View, Content: View>: View {
     init(
         isOpen: Binding<Bool>,
         maxHeight: CGFloat,
-        minHeight: CGFloat = 64,
+        minHeight: CGFloat = 80,
         @ViewBuilder headerView: () -> Header,
         @ViewBuilder content: () -> Content
     ) {

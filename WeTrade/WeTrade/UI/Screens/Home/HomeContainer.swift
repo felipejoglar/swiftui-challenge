@@ -9,27 +9,38 @@ import SwiftUI
 
 struct HomeContainer: View {
     let tabs: [TabItem]
+    let stocks: [Stock]
     
+    @State private var bottomSheetShown = false
     @State private var selectedTab: Int = 0
     
     var body: some View {
         WeTradeContainer {
-            VStack(spacing: 0) {
-                TabView(
-                    selection: $selectedTab,
-                    tabs: tabs.map({ $0.title})
-                ) { title, isSelected in
-                    VStack {
-                        Spacer()
-                        Text(title)
-                            .textCase(.uppercase)
-                            .font(Theme.fonts.button)
-                            .foregroundColor(isSelected ? Theme.colors.onBackground : Theme.colors.onBackground.opacity(0.5))
-                            .padding(.bottom, 8)
-                    }
-                }.fillMaxWidth()
+            GeometryReader { geometry in
+                VStack(spacing: 0) {
+                    TabView(
+                        selection: $selectedTab,
+                        tabs: tabs.map({ $0.title})
+                    ) { title, isSelected in
+                        VStack {
+                            Spacer()
+                            Text(title)
+                                .textCase(.uppercase)
+                                .font(Theme.fonts.button)
+                                .foregroundColor(isSelected ? Theme.colors.onBackground : Theme.colors.onBackground.opacity(0.5))
+                                .padding(.bottom, 8)
+                        }
+                    }.fillMaxWidth()
+                    
+                    tabs[selectedTab].content
+                }
                 
-                tabs[selectedTab].content
+                BottomSheetView(
+                    isOpen: self.$bottomSheetShown,
+                    maxHeight: geometry.size.height,
+                    headerView: { StockHeaderView() },
+                    content: { StocksView(stocks: stocks) }
+                )
             }
         }
     }
@@ -40,7 +51,7 @@ struct HomeScreen_Previews: PreviewProvider {
         let tabs = [
             TabItem(
                 title: Res.strings.homeMenuAccount,
-                content: AnyView(HomeScreen(stocks: Repository.stocks))
+                content: AnyView(HomeScreen())
             ),
             TabItem(
                 title: Res.strings.homeMenuWatchlist,
@@ -66,8 +77,8 @@ struct HomeScreen_Previews: PreviewProvider {
             )
         ]
         
-        HomeContainer(tabs: tabs)
-        HomeContainer(tabs: tabs)
+        HomeContainer(tabs: tabs, stocks: Repository.stocks)
+        HomeContainer(tabs: tabs, stocks: Repository.stocks)
             .preferredColorScheme(.dark)
     }
 }

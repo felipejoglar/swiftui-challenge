@@ -13,7 +13,8 @@ struct StockHeaderView: View {
         Text(Res.strings.homeAccountPositionsTitle)
             .font(Theme.fonts.subtitle1)
             .foregroundColor(Theme.colors.onSurface)
-            .frame(height: 64)
+            .frame(height: 56, alignment: .bottom)
+            .padding(.bottom, 24)
             .fillMaxWidth()
     }
 }

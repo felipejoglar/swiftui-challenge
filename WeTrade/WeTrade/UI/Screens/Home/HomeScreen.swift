@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    let stocks: [Stock]
     
-    @State private var bottomSheetShown = false
     private let filterOptions = [
         Res.strings.homeAccountFilterWeek,
         Res.strings.homeAccountFilterETFs,
@@ -21,7 +19,7 @@ struct HomeScreen: View {
     ]
     
     var body: some View {
-        GeometryReader { geometry in
+        WeTradeContainer{
             VStack {
                 Text(Res.strings.homeAccountBalance)
                     .font(Theme.fonts.subtitle1)
@@ -61,16 +59,8 @@ struct HomeScreen: View {
                     .padding(.top, 16)
                     .padding(.bottom, 32)
                 
-                
                 Spacer()
             }
-            
-            BottomSheetView(
-                isOpen: self.$bottomSheetShown,
-                maxHeight: geometry.size.height,
-                headerView: { StockHeaderView() },
-                content: { StocksView(stocks: stocks) }
-            )
         }
     }
 }
@@ -78,8 +68,8 @@ struct HomeScreen: View {
 struct HomeContent_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            HomeScreen(stocks: Repository.stocks)
-            HomeScreen(stocks: Repository.stocks)
+            HomeScreen()
+            HomeScreen()
                 .preferredColorScheme(.dark)
         }
         .padding(.top, 48)
