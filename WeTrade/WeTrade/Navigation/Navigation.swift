@@ -15,11 +15,11 @@ class Navigation : ObservableObject {
     private var homeScreen: AnyView?
     
     private let tabs = [
-        TabContent(
+        TabItem(
             title: Res.strings.homeMenuAccount,
             content: AnyView(HomeScreen(stocks: Repository.stocks))
         ),
-        TabContent(
+        TabItem(
             title: Res.strings.homeMenuWatchlist,
             content: AnyView(
                 WeTradeContainer {
@@ -30,7 +30,7 @@ class Navigation : ObservableObject {
                 }
             )
         ),
-        TabContent(
+        TabItem(
             title: Res.strings.homeMenuProfile,
             content: AnyView(
                 WeTradeContainer {

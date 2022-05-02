@@ -7,14 +7,8 @@
 
 import SwiftUI
 
-struct TabContent : Identifiable {
-    let id = UUID()
-    let title: LocalizedStringKey
-    let content: AnyView
-}
-
 struct HomeContainer: View {
-    let tabs: [TabContent]
+    let tabs: [TabItem]
     
     @State private var selectedTab: Int = 0
     
@@ -44,11 +38,11 @@ struct HomeContainer: View {
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
         let tabs = [
-            TabContent(
+            TabItem(
                 title: Res.strings.homeMenuAccount,
                 content: AnyView(HomeScreen(stocks: Repository.stocks))
             ),
-            TabContent(
+            TabItem(
                 title: Res.strings.homeMenuWatchlist,
                 content: AnyView(
                     WeTradeContainer {
@@ -59,7 +53,7 @@ struct HomeScreen_Previews: PreviewProvider {
                     }
                 )
             ),
-            TabContent(
+            TabItem(
                 title: Res.strings.homeMenuProfile,
                 content: AnyView(
                     WeTradeContainer {
