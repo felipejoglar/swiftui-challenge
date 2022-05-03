@@ -17,5 +17,7 @@
 		<key>UIImageName</key>
 		<string>logo</string>
 	</dict>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

@@ -10,14 +10,17 @@ import SwiftUI
 /// Bottom Sheet based on https://swiftwithmajid.com/2019/12/11/building-bottom-sheet-in-swiftui/
 /// Complete source: https://gist.github.com/mecid/78eab34d05498d6c60ae0f162bfd81ee
 struct BottomSheetView<Header: View, Content: View>: View {
-    @Binding var isOpen: Bool
+    @Binding private var isOpen: Bool
     
-    let maxHeight: CGFloat
-    let minHeight: CGFloat
-    let header: Header
-    let content: Content
+    private let maxHeight: CGFloat
+    private let minHeight: CGFloat
+    private let header: Header
+    private let content: Content
     
     @GestureState private var translation: CGFloat = 0
+    
+    private let viewDidExpand: (() -> Void)?
+    private let viewDidCollapse: (() -> Void)?
     
     private let SNAP_RATIO: CGFloat = 0.25
     private var offset: CGFloat {
@@ -28,11 +31,15 @@ struct BottomSheetView<Header: View, Content: View>: View {
         isOpen: Binding<Bool>,
         maxHeight: CGFloat,
         minHeight: CGFloat = 80,
+        onCollapsed: (() -> Void)? = nil,
+        onExpanded: (() -> Void)? = nil,
         @ViewBuilder headerView: () -> Header,
         @ViewBuilder content: () -> Content
     ) {
         self.minHeight = minHeight
         self.maxHeight = maxHeight
+        self.viewDidExpand = onExpanded
+        self.viewDidCollapse = onCollapsed
         self.header = headerView()
         self.content = content()
         self._isOpen = isOpen
@@ -57,13 +64,20 @@ struct BottomSheetView<Header: View, Content: View>: View {
                 DragGesture().updating(self.$translation) { value, state, _ in
                     state = value.translation.height
                 }.onEnded { value in
-                    let snapDistance = self.maxHeight * SNAP_RATIO
+                    let snapDistance = self.maxHeight * self.SNAP_RATIO
                     guard abs(value.translation.height) > snapDistance else {
                         return
                     }
                     self.isOpen = value.translation.height < 0
                 }
             )
+            .onChange(of: self.isOpen) { isOpen in
+                if isOpen {
+                    self.viewDidExpand?()
+                } else {
+                    self.viewDidCollapse?()
+                }
+            }
         }
     }
 }

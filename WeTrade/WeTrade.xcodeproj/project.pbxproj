@@ -30,6 +30,7 @@
 		B173C1BC27FF956C00485D0D /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1BB27FF956C00485D0D /* Icons.swift */; };
 		B173C1BE27FF96F400485D0D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1BD27FF96F400485D0D /* Images.swift */; };
 		B173C1C127FF980C00485D0D /* WeTradeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173C1C027FF980C00485D0D /* WeTradeContainer.swift */; };
+		B18140672821D26900A54ED8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18140662821D26900A54ED8 /* Helper.swift */; };
 		B1952163281817F000D5170F /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1952162281817F000D5170F /* TabView.swift */; };
 		B1952165281818CB00D5170F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1952164281818CB00D5170F /* HomeScreen.swift */; };
 		B19521672818196E00D5170F /* StockHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19521662818196E00D5170F /* StockHeaderView.swift */; };
@@ -84,6 +85,7 @@
 		B173C1BB27FF956C00485D0D /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		B173C1BD27FF96F400485D0D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B173C1C027FF980C00485D0D /* WeTradeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTradeContainer.swift; sourceTree = "<group>"; };
+		B18140662821D26900A54ED8 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		B1952162281817F000D5170F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		B1952164281818CB00D5170F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		B19521662818196E00D5170F /* StockHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHeaderView.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				886727562808B93B002C2864 /* WeTradeButton.swift */,
 				886727582808BAC6002C2864 /* WeTradeOutlinedButton.swift */,
 				B112785D280E998000434F66 /* WeTradeTextField.swift */,
+				B18140662821D26900A54ED8 /* Helper.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				B19C689E28120B8900A15888 /* Stock.swift in Sources */,
 				B1952163281817F000D5170F /* TabView.swift in Sources */,
 				B1ADCB642817418B00759A1E /* BottomSheetView.swift in Sources */,
+				B18140672821D26900A54ED8 /* Helper.swift in Sources */,
 				B19521672818196E00D5170F /* StockHeaderView.swift in Sources */,
 				B173C1A927FF91D600485D0D /* Colors.swift in Sources */,
 				B1B29CF528207BB40055BDB0 /* TabItem.swift in Sources */,

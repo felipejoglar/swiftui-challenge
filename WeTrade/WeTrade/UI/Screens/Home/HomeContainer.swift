@@ -10,6 +10,8 @@ import SwiftUI
 struct HomeContainer: View {
     let tabs: [TabItem]
     let stocks: [Stock]
+
+    @Environment(\.colorScheme) private var colorScheme
     
     @State private var bottomSheetShown = false
     @State private var selectedTab: Int = 0
@@ -38,10 +40,24 @@ struct HomeContainer: View {
                 BottomSheetView(
                     isOpen: self.$bottomSheetShown,
                     maxHeight: geometry.size.height,
+                    onCollapsed: onCollapsed,
+                    onExpanded: onExpanded,
                     headerView: { StockHeaderView() },
                     content: { StocksView(stocks: stocks) }
                 )
             }
+        }
+    }
+    
+    private func onCollapsed() {
+        if colorScheme == .light {
+            setStatusBarStyle(.lightContent, animated: true)
+        }
+    }
+    
+    private func onExpanded() {
+        if colorScheme == .light {
+            setStatusBarStyle(.darkContent, animated: true)
         }
     }
 }

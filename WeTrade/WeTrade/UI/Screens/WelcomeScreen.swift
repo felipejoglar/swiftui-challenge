@@ -31,6 +31,9 @@ struct WelcomeScreen: View {
                 .padding(.bottom, 48)
             }
         }
+        .onAppear {
+            setStatusBarStyle(.lightContent)
+        }
     }
 }
 

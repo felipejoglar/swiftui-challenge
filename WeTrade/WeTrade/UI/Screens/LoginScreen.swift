@@ -29,16 +29,16 @@ struct LoginScreen: View {
                     text: $email, leadingIcon:
                         Res.icons.mailOutline
                 )
-                    .keyboardType(.emailAddress)
-                    .padding(.horizontal, 16)
+                .keyboardType(.emailAddress)
+                .padding(.horizontal, 16)
                 
                 WeTradeTextField(
                     Res.strings.loginPasswordHint,
                     text: $password,
                     leadingIcon: Res.icons.password
                 )
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 8)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 8)
                 
                 WeTradeButton(text: Res.strings.logIn) {
                     onLoginClick()
@@ -54,6 +54,9 @@ struct LoginScreen: View {
                 .font(Theme.fonts.h2)
                 .frame(height: 152, alignment: .bottom)
                 .padding(.horizontal, 32)
+        }
+        .onAppear {
+            setStatusBarStyle(.lightContent)
         }
     }
 }
