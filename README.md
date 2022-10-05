@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/swiftui-logo.png" width="40" height="40"> SwiftUI Challenge
+# <img src="https://raw.githubusercontent.com/felipejoglar/swiftui-challenge/main/Assets/swiftui-logo.png" width="40" height="40"> SwiftUI Challenge
 
 [![CI](https://github.com/felipejoglar/swiftui-challenge/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/felipejoglar/swiftui-challenge/actions/workflows/ci.yml)
 
-This is a SwiftUI version of Android's Jetpack Compose Challenge [repository](https://github.com/fjoglar/jetpack-compose-challenge).
+This is a SwiftUI version of Android's Jetpack Compose Challenge [repository](https://github.com/felipejoglar/jetpack-compose-challenge).
 
 This is meant to be a learning playground project for [SwiftUI](https://developer.apple.com/xcode/swiftui/).
 
@@ -24,15 +24,21 @@ The resources & design mocks:
 
 This project will contain three application modules:
 
-1. [Bloom](https://github.com/fjoglar/swiftui-challenge/tree/main/Bloom)
-2. [MySoothe](https://github.com/fjoglar/swiftui-challenge/tree/main/MySoothe)
-3. [WeTrade](https://github.com/fjoglar/swiftui-challenge/tree/main/WeTrade)
+1. [Bloom](https://github.com/felipejoglar/swiftui-challenge/tree/main/Bloom)
+2. [MySoothe](https://github.com/felipejoglar/swiftui-challenge/tree/main/MySoothe)
+3. [WeTrade](https://github.com/felipejoglar/swiftui-challenge/tree/main/WeTrade)
+
+# Launch the app
+
+To launch one of the sample apps you just need to select the desired application in the schemes dropdown menu and hit the run ▶️ button.
+
+![launch_applications](https://raw.githubusercontent.com/felipejoglar/swiftui-challenge/main/Assets/launch-app.png)
 
 # License
 ```
 MIT License
 
-Copyright (c) 2021 Felipe Joglar
+Copyright (c) 2021-2022 Felipe Joglar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
