@@ -1,14 +1,14 @@
-# <img src="https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/MySoothe/MySoothe/Assets.xcassets/AppIcon.appiconset/iPhone_Spotlight_40_2x.png" width="40" height="40"> My Soothe sample
+# <img src="https://raw.githubusercontent.com/felipejoglar/swiftui-challenge/main/MySoothe/MySoothe/Assets.xcassets/AppIcon.appiconset/iPhone_Spotlight_40_2x.png" width="40" height="40"> My Soothe sample
 
 | Light Mode Preview | Dark Mode Preview |
 | ----------- | ----------- |
-| ![Light Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/MySoothe_iPhone_13_Pro_Max_Light.gif) | ![Dark Mode Preview](https://raw.githubusercontent.com/fjoglar/swiftui-challenge/main/Assets/MySoothe_iPhone_13_Pro_Max_Dark.gif) |
+| ![Light Mode Preview](https://raw.githubusercontent.com/felipejoglar/swiftui-challenge/main/Assets/My_Soothe-iPhone_13-Light.gif) | ![Dark Mode Preview](https://raw.githubusercontent.com/felipejoglar/swiftui-challenge/main/Assets/My_Soothe-iPhone_13-Dark.gif) |
 
 # License
 ```
 MIT License
 
-Copyright (c) 2021 Felipe Joglar
+Copyright (c) 2021-2022 Felipe Joglar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
